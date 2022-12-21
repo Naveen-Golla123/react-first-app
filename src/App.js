@@ -20,7 +20,7 @@ const App = () => (
       <ProtectedRoute path="/movie/:id" component={MoviePage} />
       <ProtectedRoute path="/search/:input" component={MovieSearchPage} />
       <ProtectedRoute path="/nomatchsearch" component={NoMatchSearch} />
-      <NotFound />
+      <SignInPage />
     </Switch>
   </BrowserRouter>
 )
